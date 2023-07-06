@@ -1,0 +1,47 @@
+body {
+  font-family: arial;
+  margin: 50px 540px;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  font-size: 25px;
+  width: 80px;
+  height: 80px;
+  border-radius: 60px;
+  border: none;
+  margin-right: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+}
+
+.gray-button {
+  background-color: lightgray;
+  color: black;
+}
+
+.calculation,
+.result {
+  font-size: 30px;
+  text-align: right;
+  margin-right: 30px;
+  height: 30px;
+}
+
+.result {
+  font-weight: bold
+}
+

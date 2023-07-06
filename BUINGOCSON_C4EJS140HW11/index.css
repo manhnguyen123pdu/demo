@@ -1,0 +1,35 @@
+div.contains {
+   width: 1200px;
+   display: flex;
+   flex-direction: row;
+   justify-content:space-around;
+    flex-wrap: wrap;
+   
+}
+a {
+    text-decoration-line: none;
+}
+img {
+    width: 100%;
+}
+div.product {
+    width: 30%;
+    height: 425px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+div.product-discount {
+    text-align: left;
+    position: absolute;
+    color: red;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+div.product-price {
+    color: red;
+}
